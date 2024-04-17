@@ -1,6 +1,7 @@
 import "./App.css";
 import CustomerReviews from "./sections/CustomerReview";
 import Footer from "./sections/Footer";
+import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import PopularProduct from "./sections/PopularProduct";
 import Services from "./sections/Services";
@@ -10,7 +11,7 @@ import SuperQuality from "./sections/SuperQuality";
 function App() {
   return (
     <main className="realtive">
-      nav
+      <Header/>
       <section className="xl:padding-1 wide:padding-r padding-b"><Hero/></section>
       <section className="padding"><PopularProduct/></section>
       <section className="padding"><SuperQuality/></section>
